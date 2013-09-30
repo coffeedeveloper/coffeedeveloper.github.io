@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>{{ page.title }}</title>
-</head>
-<body>
-	{{ content }}
-</body>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+		<title>{{ page.title }}</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>做一个有理想、有激情的程序员！</h1>
+        <h2>专注于前端开发</h2>
+        <section id="downloads">
+          <a href="https://github.com/coffeedeveloper" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+    <div class="container">
+      <section id="main_content">
+				{{ content }}
+      </section>
+    </div>
+  </body>
 </html>
