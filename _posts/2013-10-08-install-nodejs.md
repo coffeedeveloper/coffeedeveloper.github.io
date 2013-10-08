@@ -1,3 +1,8 @@
+---
+layout: default
+title: Linux下安装node.js、express环境
+---
+
 ## Linux下安装node.js、express环境
 
 ### 安装nvm
